@@ -157,9 +157,7 @@ class SmartShortOperator
 
 	if ($operatorValue == $cleanString) {  //No tags, just dump the sub string and we're done weehaw.
 		$output = substr( $cleanString, 0, $length );
-		if($spacePositions) { // Don't need sequence if it ended on a sentence in my humble opinion.
-			$output = $output.$sequence;
-		}
+		$output = $output.$sequence;
 	} else { //has tags, uh oh
 		$tagSplit = preg_split('%(</?[\w][^>]*>)%uxis',$operatorValue,-1,PREG_SPLIT_NO_EMPTY|PREG_SPLIT_DELIM_CAPTURE);
 		$badTagArray=$moduleINI->variable( "ModuleSettings", "HangingTags" );

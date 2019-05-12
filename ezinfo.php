@@ -38,7 +38,7 @@ class ezsmartshortInfo
     {
         return array(
             'Name' => "smartshort",
-            'Version' => "1.1",
+            'Version' => "1.2.0",
             'Copyright' => "Copyright (c) 2011 Leiden Tech",
             'Info_url' => "http://www.leidentech.com",
             'License' => "GNU General Public License v2.0"
