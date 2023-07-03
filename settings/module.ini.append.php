@@ -1,4 +1,5 @@
-<?php /* #?ini charset="iso-8859-1"?
+<?php /* #?ini charset="utf-8"?
+
 [ModuleSettings]
 #The percentage of a strings length that is allowable to go over before switching to the next lowest level breakpoint (end punctuation, space, char).
 AllowedDeviation=20
@@ -22,4 +23,4 @@ HangingTags[]=<h4
 HangingTags[]=<h5
 HangingTags[]=<h6
 
-*/ ?>
+*/
